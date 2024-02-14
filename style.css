@@ -1,0 +1,139 @@
+body{
+    background-color:azure;
+    /*border:2px solid green;*/
+    background-image: url('./images/Sound-Clash_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    font-size:1.2rem;
+
+}
+.container{
+    /*border:2px solid black;*/
+    margin-inline:3rem;
+    margin-block:1rem;
+    padding:10px; /*remove*/
+}
+.header-img{
+    border:2px solid red
+}
+.header-img img{
+    max-width:6rem;
+    max-height:6rem;
+    padding:0.5rem;
+}
+
+.nav-container{
+    /*border:2px solid blue;*/
+    background-color: black;
+    padding:0.5rem;
+}
+
+.nav-links{
+    color:whitesmoke;
+    display: flex;
+    list-style:none;
+    gap:2rem;
+}
+
+.hero-image{
+    height:60vh;
+    /*border:2px solid red;*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-block:1rem;
+}
+.hero-image img{
+    height:100%;
+    width:90%;
+}
+
+
+.audios{
+    display:block;
+    /*border:2px solid orange;*/
+}
+.audios p{
+    color:#fff; 
+    font-weight:300px;
+    margin-left:3rem;
+}
+.audios img{
+    margin-left:2rem;
+    height:80px;
+    width:90%;
+}
+
+.youtube-content{
+    display:block;
+    /*border: 2px solid yellow;*/
+}
+
+.youtube-content p{
+    color:#fff;
+    font-weight:300px;
+    margin-left:3rem;
+
+}
+/*.youtube-content*/ .videos{
+    /*margin-inline:2rem;*/
+    margin-left:2rem;
+    border: 2px solid red;
+    margin-block:1rem;
+    width:90%;
+}
+
+
+.photos-content{
+    border:2px solid red;
+}
+.photos-content p{
+    color:#fff;
+    font-weight:300px;
+    margin-left:3rem;
+}
+
+.images-container img{
+    width:100px;
+    height:100px;
+    margin-left:2rem;
+}
+
+.footer{
+    color:#fff;
+    /*border:2px solid red;*/
+    display:flex;
+    gap:1rem;
+    justify-content:flex-start;
+}
+/*.contacts{
+    border:2px solid red;
+}*/
+/*.location{
+    border:2px solid blue;
+}*/
+.contacts li{
+    list-style:none;
+    margin:2px;
+    
+
+}
+.location li{
+    list-style:none;
+    margin:2px;
+}
+
+.contacts h2{
+    margin-left:3rem;
+}
+.location h2{
+    margin-left:2.5rem;
+}
+
+
+.socials{
+    background-color:black;
+
+}
