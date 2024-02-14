@@ -11,28 +11,55 @@
     <div class="container">
         <div class="header-img"> <img src="./images/logo.png" alt="Rossie Wine Logo"></div>
         <div class="nav-container">
-            <ul class="nav-links">
-                <li class="headerLink">Home</li>
-                <li class="headerLink">About</li>
-                <li class="headerLink">Audio</li>
-                <li class="headerLink">Videos</li>
-                <li class="headerLink">Photos</li>
-            </ul>
+            <div class="nav-links">
+                <div class="dropdown">
+                    <p class="dropbtn"><a href="#">Home</a></p>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn"><a href="#">About</a></p>
+                    <div class="dropdown-content">
+                      <a href="#" target="_blank">Blog</a>
+                      <a href="#">Crew</a>
+                      <a href="#photos">Photos</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn"><a href="#">Audio</a></p>
+                    <div class="dropdown-content">
+                      <a href="#audios">Hearthisat</a>
+                      <a href="#">Sound Cloud</a>
+                      <a href="#">Spotify</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn"><a href="#">video</a></p>
+                    <div class="dropdown-content">
+                      <a href="#" target="_blank">Download</a>
+                      <a href="#utube">Youtube</a>
+                      <a href="#"target="_blank">Sound Cloud</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn"><a href="#footer">Contact</a></p>
+                </div>
+            </div>
         </div>
+
+        <!--end-navigation--->
         <div class="hero-image"><img src="./images/python.png" alt="rossi image"></div>
-        <div class="audios">
+        <div class="audios" id="audios">
             <p>LATEST AUDIOS</p>
             <img src="./images/python.png" alt="1st" class="audio">
             <img src="./images/python.png" alt="2nd" class="audio">
             <img src="./images/python.png" alt="3rd" class="audio">
         </div>
-        <div class="youtube-content">
+        <div class="youtube-content" id="utube">
             <p>LATEST VIDEOS</p>
             <img src="./images/python.png" alt="1st" class="videos">
             <img src="./images/python.png" alt="2nd" class="videos">
             <img src="./images/python.png" alt="3rd" class="videos">
         </div>
-        <div class="photos-content">
+        <div class="photos-content" id="photos">
             <p>PHOTOS</p>
             <div class="images-container">
                 <img src="./images/that.jpg" alt="1st image"class="photos">
@@ -41,7 +68,7 @@
                 <img src="./images/that.jpg" alt="1st image"class="photos">
             </div>
         </div>
-        <div class="footer">
+        <div class="footer" id="footer">
             <div class="contacts">
                 <h2>Contacts</h2>
                 <ul>
