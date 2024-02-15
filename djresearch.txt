@@ -1,0 +1,9 @@
+@hakokaio
+8 months ago
+one thing i have figured out, is that now the Channel IDs have "UULF" in the Playlist instead of just "UU" other than that, it works fine. Adding the Latest Video Link then add "&list=" and then add the Channel ID and remove the letter C and add ULF. I can now listen or watch some Not Listed Playlists. Thank you for that.
+
+
+https://hearthis.at/dj-rossi-wine/
+
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://hearthis.at/embed/1234567/"></iframe>
