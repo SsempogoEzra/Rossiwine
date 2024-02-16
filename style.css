@@ -127,11 +127,12 @@ body{
 }
 .youtube-content{
     border:2px solid red;
+    height:100%;
     position: relative;
 }
 .youtube-content iframe{
     position: relative;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 229, 255);
     margin-block:5px;
     width:100%;
     height: 100%;
