@@ -4,10 +4,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:1.2rem;
     width:100%;
     overflow-x:hidden;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
     /*border:2px solid black;*/
@@ -16,7 +20,7 @@ body{
     padding:10px; /*remove*/
 }
 .header-img{
-    border:2px solid red
+    /*border:2px solid red*/
 }
 .header-img img{
     max-width:6rem;
@@ -99,7 +103,7 @@ body{
 /*audio-section*/
 .audios{
     display:block;
-    border:2px solid orange;
+    /*border:2px solid orange;*/
 }
 .audios p{
     color:#fff; 
@@ -116,7 +120,7 @@ body{
 
 /*youtube-section*/
 .youtube{
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 
 .youtube p{
@@ -126,13 +130,13 @@ body{
 
 }
 .youtube-content{
-    border:2px solid red;
+    /*border:2px solid red;*/
     height:100%;
     position: relative;
 }
 .youtube-content iframe{
     position: relative;
-    border: 2px solid rgb(0, 229, 255);
+    /*border: 2px solid rgb(0, 229, 255);*/
     margin-block:5px;
     width:100%;
     height: 100%;
@@ -141,7 +145,7 @@ body{
 
 /*photo-section*/
 .photos-content{
-    border:2px solid red;
+    /*border:2px solid red;*/
 }
 .photos-content p{
     color:#fff;
@@ -153,6 +157,7 @@ body{
     width:100px;
     height:100px;
     margin-left:2rem;
+    border-radius:2px;
 }
 
 /*end photo-section*/
@@ -160,7 +165,7 @@ body{
 /*footer -section*/
 .footer{
     color:#fff;
-    border:2px solid red;
+    /*border:2px solid red;*/
     display:flex;
     gap:1rem;
     justify-content:flex-start;
@@ -192,10 +197,24 @@ body{
 
 /*end-footer-section*/
 
+/*socials-section*/
 .socials{
     background-color:black;
     color:white;
-
     border-top:2px solid yellow;
-
+    padding:3px;
+    border-radius:2px
 }
+@media only screen and (max-width:600px){
+    .socials{
+        position: fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        text-align:center;
+    }
+    .socials p{
+        font-size:10px;
+    }
+}
+/*end-of socials
