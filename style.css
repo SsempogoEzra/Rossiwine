@@ -19,13 +19,15 @@ body{
     margin-block:1rem;
     padding:10px; /*remove*/
 }
-.header-img{
-    /*border:2px solid red*/
-}
+/*.header-img{
+    border-left:3px solid whitesmoke;
+    margin-bottom:10px;
+}*/
 .header-img img{
     max-width:6rem;
     max-height:6rem;
     padding:0.5rem;
+    border-radius:10%;
 }
 /*nav-section*/
 .nav-container{
@@ -176,6 +178,9 @@ body{
     height:100px;
     /*margin-left:2rem;*/
     border-radius:2px;
+}
+.images-container img:hover{
+    filter: brightness(40%);
 }
 
 /*end photo-section*/
