@@ -7,10 +7,10 @@ Making a  "portfolio" site for my friend thats a dj ofcourse...
 - done with the basic structure.
 - some css too.
 - added the stock youtube to fill.
-- added his mixtapes from "https://hearthis.at/dj-rossi-wine/".
+- added his mixtapes from <https://hearthis.at/dj-rossi-wine/>
 - social media icons from fontawsome.
-- updated personal info
-- added the real logo
+- updated personal info.
+- added the real logo.
 
 ## more to add
 
@@ -20,4 +20,4 @@ Making a  "portfolio" site for my friend thats a dj ofcourse...
 - connect to his soundcloud profile in the making.
 - connect to his youtube channel vids in the making.
 - add a mosonry layoute to the pics in desktop view.
-- might need to change color scheme because of the logo
+- might need to change color scheme because of the logo.
