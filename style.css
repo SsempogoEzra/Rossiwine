@@ -11,13 +11,23 @@ body{
     overflow-x:hidden;
     color:white;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;          
 }
 .container{
     /*border:2px solid black;*/
     margin-inline:1rem;
+    border-radius:5px;
     margin-block:1rem;
     padding:10px; /*remove*/
+    background: linear-gradient(
+      50deg,
+      rgba(255, 255, 255, 0.4) 12%,
+      rgba(255, 255, 255, 0.1) 77%
+    );
+    background-blend-mode:linear;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 /*.header-img{
     border-left:3px solid whitesmoke;
@@ -113,14 +123,15 @@ body{
     margin-left:3rem;
     padding-top:5px;
 }
-.audios img{
-    /*margin-left:2rem;*/
-    height:80px;
-    width:100%;
-}
 .audios{
     border-radius:3px;
-    /*background:linear-gradient(.25turn, rgb(111, 9, 9), 10%, rgb(172, 117, 35));*/
+}
+.audios iframe{
+    background-image: radial-gradient(circle, #ffac7a, #ffb58e, #ffbfa2, #ffc9b4, #fdd3c6, #f4cdc2, #ecc8bf, #e3c2bb, #d4aba3, #c5958b, #b67f74, #a66a5e);
+    padding-top:1rem;
+    padding-inline:0.5rem;
+    /*padding-bottom:0px;*/
+    border-radius:5px;
 }
 
 /*end-audio-section*/
