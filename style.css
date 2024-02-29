@@ -126,10 +126,6 @@ body{
 /*end-audio-section*/
 
 /*youtube-section*/
-.youtube{
-    /*border: 2px solid yellow;*/
-}
-
 .youtube p{
     color:#fff;
     font-weight:300px;
@@ -151,9 +147,6 @@ body{
 /*end-youtube-section*/
 
 /*photo-section*/
-.photos-content{
-    /*border:2px solid red;*/
-}
 .photos-content p{
     color:#fff;
     font-weight:300px;
@@ -226,14 +219,18 @@ body{
     color:white;
     border-top:2px solid yellow;
     padding:3px;
-    border-radius:2px
+    border-radius:2px;
+    text-decoration: none;
 }
-
 .socials i{
     margin-inline:1.3rem;
     font-size: larger;
     padding-top:3px;
     text-align: center;
+    color: #fff;
+}
+.socials a{
+    text-decoration: none;
 }
 
 @media only screen and (max-width:600px){
