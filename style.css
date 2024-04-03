@@ -140,7 +140,6 @@ body{
 
 }
 .youtube-content{
-    /*border:2px solid red;*/
     height:100%;
     position: relative;
 }
@@ -151,13 +150,12 @@ body{
     height: 100%;
 }
 
-/*@media only screen and (min-width:600px){
+@media only screen and (min-width:600px){
     .youtube-content{
         display:flex;
         gap:1rem;
     }
-
-}*/
+}
 
 /*end-youtube-section*/
 
