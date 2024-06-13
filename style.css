@@ -111,8 +111,8 @@ body{
     padding-block:1rem;
 }
 .hero-image img{
-    height:95%;
-    width:95%;
+    height:100%;
+    width:80%;
     border: 5px solid white;
     border-radius:2px;
 }
